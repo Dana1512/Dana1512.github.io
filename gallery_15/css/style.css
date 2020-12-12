@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+ }
+ @font-face{
+  font-family: Oswald Regular;
+  src:url(../fonts/Oswald Regular.ttf);
+ }
+ body{
+      background:white;
+     font-family: Oswald Regular;
+     }
+ main{
+     width: 70%;
+     padding: 50px;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     background-image:url(../img/21.jpg);
+
+ }
+ .photo{
+       width:calc(50% - 40px);
+       height:calc((35vw - 40px) / 16 * 9);
+       margin: 10px;
+       background:orange;
+       box-shadow: 4px 4px 5px 1px rgba(0,0,0,0.2);
+       background-position: center;
+       background-size: cover;
+       opacity: 0.65;
+       transition: opasity 2s, transform 2s;
+       }
+.photo:hover{
+        opacity: 1;
+        transform: scale(1.5) rotate(3deg);
+        z-index: 10;
+        box-shadow: 4px 8px 8px 8px rgba(0,0,0,0.2);
+      }
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    }
+    .photo1{
+      background-image: url(../img/01.jpg);
+    }
+    .photo2{
+      background-image: url(../img/02.jpg);
+    }
+    .photo3{
+      background-image: url(../img/03.jpg);
+    }
+    .photo4{
+      background-image: url(../img/04.jpg);
+    }
+    .photo5{
+      background-image: url(../img/05.jpg);
+    }
+    .photo6{
+      background-image: url(../img/06.jpg);
+    }
+    .photo7{
+      background-image: url(../img/07.jpg);
+    }
+    .photo8{
+      background-image: url(../img/08.jpg);
+    }
+    .photo9{
+      background-image: url(../img/09.jpg);
+    }
+    
+    .photo10{
+      background-image: url(../img/10.jpg);
+    }
+    .photo11{
+      background-image: url(../img/11.jpg);
+    }
+    .photo12{
+      background-image: url(../img/12.jpg);
+    }
+
+    
+    
+    
+    
+    
+    
+    }
+}
